@@ -13,7 +13,6 @@ function Skills() {
   return (
     <>
       <div id='skills' className='skills'>
-        <div className="extra_adj"></div>
         <div className='skills_sect'>
           <h1 className='myskills'>Skills</h1>
           <div className='web_design'>

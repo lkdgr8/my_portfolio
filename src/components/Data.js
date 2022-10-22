@@ -27,13 +27,15 @@ const ProjectData = [
     {
         title: "KS Softech Website",    
         category: "UI/UX Design",
-        image: "img/kssoftech.png"
+        image: "img/kssoftech.png",
+        link: "https://www.kssoftech.com/"
     },
     {
         title: "AI Shipping Lines website",
         category: "Wordpress",
         image: "img/ai.png",
-        link: "https://www.kssoftech.com/"
+        link: "https://www.aishippinglines.com/"
+        
     },
     {
         title: "Flatbed Hauling Qoutes website",
@@ -56,17 +58,25 @@ const ProjectData = [
     {
         title: "Todo List Project with edit and delete functionality",
         category: "Reactjs",
-        image: "img/todo_list_project.png"
+        image: "img/todo_list_project.png",
+        link: "https://lkdgr8.github.io/my-todo-list-project/"
     },
     {
         title: "Robo Frinds app with data imported from API",
         category: "Reactjs",
-        image: "img/Robofrnds.png"
+        image: "img/Robofrnds.png",
+        link: "https://lkdgr8.github.io/RoboFreindsapp/"
     },
     {
         title: "Ave portfolio website",
         category: "Reactjs",
-        image: "img/ave_project.png"
+        image: "img/ave_project.png",
+    },
+    {
+        title: "weather api project",
+        category: "Reactjs",
+        image: "img/weather_proj.png",
+        link: "https://lkdgr8.github.io/weatherapiproj"
     }
 ];
 

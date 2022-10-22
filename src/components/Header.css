@@ -59,6 +59,7 @@
     padding: 10px 25px;
     border-radius: 25px;
     background-color: blue;
+    border-color: #00e9d4 !important;
     color: white;
     cursor: pointer;
 }
@@ -125,7 +126,7 @@ a{
 
 .projects_section{
   text-align: center;
-  background-color: rgb(199, 238, 240);
+  background-image: linear-gradient(to right, #0048ff , #ff0000);
 }
 
 .project_tabs{
@@ -137,6 +138,7 @@ a{
     padding: 5px 10px;
     border-radius: 10px;
     background-color: white;
+    border-color: #00e9d4 !important;
 }
 
 .btns:hover{
@@ -146,6 +148,7 @@ a{
 
 .pheading{
     padding-top: 30px;
+    color: white;
 }
 
 .cont2{
@@ -170,6 +173,7 @@ a{
     padding: 5px 10px;     
     border-radius: 10px;
     background-color: blue;
+    border-color: #00e9d4 !important;
     color: white;
 }
 
