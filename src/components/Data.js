@@ -73,7 +73,7 @@ const ProjectData = [
         image: "img/ave_project.png",
     },
     {
-        title: "weather api project",
+        title: "weather details city wise api project",
         category: "Reactjs",
         image: "img/weather_proj.png",
         link: "https://lkdgr8.github.io/weatherapiproj"
