@@ -17,27 +17,29 @@ function Skills() {
           <h1 className='myskills'>Skills</h1>
           <div className='web_design'>
             <h1>Web Designing</h1>
-            <div className='skills_icons'>
-              <div className='skills_icons_sec'>
-                <SiHtml5 className='design_icons' />
-                <h2 className='heading'>HTML</h2>
-              </div>
-              <div className='skills_icons_sec'>
-                <SiCss3 className='design_icons icon2' />
-                <h2 className='heading heading2'>CSS</h2>
-              </div>
-              <div className='skills_icons_sec'>
-                <SiBootstrap className='design_icons' />
-                <h2 className='heading'>Bootstrap</h2>
-              </div>
-              <div className='skills_icons_sec'>
-                <BsWordpress className='design_icons' />
-                <h2 className='heading'>Wordpress</h2>
-              </div>
-              <div className='skills_icons_sec'>
-                <SiShopify className='design_icons' />
-                <h2 className='heading'>Shopify</h2>
-              </div>
+            <div className='adj'>
+              <div className='skills_icons'>
+                <div className='skills_icons_sec'>
+                  <SiHtml5 className='design_icons' />
+                  <h2 className='heading'>HTML</h2>
+                </div>
+                <div className='skills_icons_sec'>
+                  <SiCss3 className='design_icons icon2' />
+                  <h2 className='heading heading2'>CSS</h2>
+                </div>
+                <div className='skills_icons_sec'>
+                  <SiBootstrap className='design_icons' />
+                  <h2 className='heading'>Bootstrap</h2>
+                </div>
+                <div className='skills_icons_sec'>
+                  <BsWordpress className='design_icons' />
+                  <h2 className='heading'>Wordpress</h2>
+                </div>
+                <div className='skills_icons_sec'>
+                  <SiShopify className='design_icons' />
+                  <h2 className='heading'>Shopify</h2>
+                </div>
+            </div>
             </div>
           </div>
           <div className='web_design web_dev'>
