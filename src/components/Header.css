@@ -28,7 +28,7 @@
 .display-flex1{
     display: flex;
     flex-direction: row;
-    margin: 25px auto;
+    margin: 25px 0px 25px 18rem;
     position: relative;
     text-align: center;
 }
@@ -50,11 +50,6 @@
     padding: 0 15px;
 }
 
-.resume_container{
-    margin-top: 20px;
-    position: relative;
-}
-
 .resume_btn{
     padding: 10px 25px;
     border-radius: 25px;
@@ -63,6 +58,10 @@
     color: white;
     cursor: pointer;
 }
+.resume_btn a {
+    color: white;
+}
+
 
 .resume_btn:hover{
     background-color: rgb(0, 0, 122);
@@ -145,7 +144,6 @@ a{
     background-color: blue;
 }
 
-
 .pheading{
     padding-top: 30px;
     color: white;
@@ -163,7 +161,6 @@ a{
 }
 
 .border{
-    border: 1px solid blue;
     margin: 35px 30px;
     width: 300px;
 }
@@ -190,7 +187,6 @@ button{
     padding: 20px;
     height: 80px;
     font-weight: 600;
-
 }
 
 .learn_more_btn{
@@ -198,6 +194,7 @@ button{
     border-radius: 25px;
     background-color: rgb(0, 178, 233);
     margin-bottom: 20px;
+    border-color: deepskyblue;
 }
 
 
@@ -206,7 +203,7 @@ button{
 }
 
 .desc{
-    background-color: #f6ff00;
+    background-color: #00ffe4;
     margin-top: -10px;
 }
 
@@ -216,16 +213,16 @@ button{
     margin-top: 50px;
 }
 
-.skills_icons{
-    margin-left: auto;
+.skills_icons{  
     margin-right: 30px;
     padding: 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .design_icons{
-    font-size: 7rem;    
+    font-size: 5rem;    
 }
 
 .skills_icons_sec{
@@ -235,7 +232,6 @@ button{
 .skills_sect{
     margin: 60px 30px 0;
 }
-
 
 .web_dev{
     margin-top: 70px;
@@ -315,13 +311,11 @@ input{
     font-size: 20px;
 }
 
-
 textarea{
     width: 300px;
     position: relative;
     top: 20px;
     height: 60px;
-    
 }
 
 .contact_info{
@@ -330,7 +324,6 @@ textarea{
     padding: 20px 12px;
     margin: 0px 12px; 
     border-radius: 20px;
-
 }
 
 .contact_cont{
@@ -347,11 +340,9 @@ textarea{
     margin-top: 40px;
 }
 
-
 .contact_me{
     padding-left: 30%;
 }
-
 
 .first{
     margin-left: 65px;
@@ -398,6 +389,10 @@ textarea{
 
 .hamb_icon{
     display: none;
+}
+
+.lastpara{
+    font-size: 20px;
 }
 
 /* mobile responsive section */
@@ -465,6 +460,7 @@ textarea{
         display: flex !important;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-left: unset;
     }
     .skills_icons_sec{
         margin: 10px;
@@ -527,10 +523,6 @@ textarea{
     }
     .display-flex1 nav{
         display: block !important;
-        
-    }
-    .resume_container{
-        display: none;
     }
     .title {
         padding-bottom: 0px !important;
@@ -558,8 +550,46 @@ textarea{
     .lastpara{
         padding: 0 5px !important;
     }
+    .lastpara{
+        font-size: 20px;
+    }
+    .resume_container{
+        display: block;
+        margin-top: 30px;
+    }
 }
 
-.lastpara{
-    font-size: 20px;
+/* responsive section */
+
+@media (min-width: 1198px){
+    .resume_container{
+        margin-top: 20px;
+        position: absolute;
+        right: -112%;
+        bottom: -50%;
+    }
+    .skills_icons{
+        margin-left: 20rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    .display-flex1 {
+    margin: 25px 0px 25px 4%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    .display-flex1 {
+    margin: 25px 0px 25px 4%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    form {
+        padding-left: 15px !important;
+    }
+    .contact_me{
+        padding-left: unset !important;
+    }
 }

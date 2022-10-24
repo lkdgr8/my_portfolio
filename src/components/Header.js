@@ -9,6 +9,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import Navbar from './Navbar'
 import Skills from './Skills'
 import Contact from './Contact'
+import resume from './resume/myupdatedresume.pdf'
 
 function Header() {
     const [clicked, setClicked] = useState(false);
@@ -22,15 +23,17 @@ function Header() {
                             <GiHamburgerMenu className="hamb_icon" onClick={() => setClicked(!clicked)}/>
                         </div>
                         <div className= {clicked ? `update_div display-flex1` : "display-flex1"}>
-                            <nav>
-                                <a href='#'><li>Home</li></a>
-                                <a href='#projects'><li>Projects</li></a>
-                                <a href='#skills'><li>My Career</li></a>
-                                <a href="#contact"><li>Contact Me</li></a>
-                            </nav>
-                        </div>
-                        <div className='resume_container'>
-                            <button className='resume_btn'>Resume</button>
+                            <sapn>
+                                <nav>   
+                                    <a href='#'><li>Home</li></a>
+                                    <a href='#projects'><li>Projects</li></a>
+                                    <a href='#skills'><li>My Career</li></a>
+                                    <a href="#contact"><li>Contact Me</li></a>
+                                </nav>  
+                            </sapn>
+                            <div className='resume_container'>
+                                <button className='resume_btn'><a target="_blank" href={resume}>Resume</a></button>
+                            </div>                          
                         </div>
                     </header>
                 </div>
