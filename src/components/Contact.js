@@ -19,7 +19,7 @@ function Contact() {
                   <p>Email Id : <input className="third" type="text" /></p>
                   <p>Purpose : <select className="third" type="select">
                         <option>select</option>
-                        <option>discus new project</option>
+                        <option>discus a new project</option>
                         <option>want to hire me</option>
                         <option>outsource your project</option>
                     </select></p>
