@@ -31,6 +31,18 @@ const ProjectData = [
         link: "https://www.kssoftech.com/"
     },
     {
+        title: "AIKTC Web pages",    
+        category: "UI/UX Design",
+        image: "img/Aiktc_landing_page.png",
+        link: "https://aiktc.ac.in/admission/bachelor-of-electrical-engineering-degree-course/"
+    },
+    {
+        title: "Sea Rock Lounge",
+        category: "Wordpress",
+        image: "img/searock.png",
+        link: "https://searocklounge.com/"
+    },  
+    {
         title: "AI Shipping Lines website",
         category: "Wordpress",
         image: "img/ai.png",
