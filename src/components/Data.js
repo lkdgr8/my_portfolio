@@ -37,7 +37,7 @@ const ProjectData = [
         link: "https://aiktc.ac.in/admission/bachelor-of-electrical-engineering-degree-course/"
     },
     {
-        title: "Sea Rock Lounge",
+        title: "Seaock Lounge",
         category: "Wordpress",
         image: "img/searock.png",
         link: "https://searocklounge.com/"
