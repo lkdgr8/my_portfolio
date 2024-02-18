@@ -1,0 +1,89 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container button {
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.container button:hover {
+    background-color: blue;
+    color: #fff;    
+    border: none;
+    box-shadow: 1px 1px 7px 0px #7e6969e0;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-container form input{
+    display: block;
+}
+
+.form-container form label{
+    display: block;
+    margin-top: 15px;
+}
+
+.form-container form .form-submit{
+    padding: 10px;
+    border-radius: 10px
+}
+
+form{
+    background-color: #fff;
+}
+
+.modal-content{
+    width: 350px !important;
+}
+
+.modal {
+    --bs-modal-zindex: 1055 !important;
+    --bs-modal-width: 388px !important;
+}
+
+.form-container form input {
+    display: block;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.form-submit{
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.form-submit:hover{
+    background: #2828ce;
+    color: #fff;
+}
+
+.modal-header{
+    border: none !important;
+}
+
+.modal-body{
+    padding: 0 15px 15px 15px !important;
+}
+
+.modal-header {
+    padding: 10px !important;
+}
