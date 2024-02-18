@@ -1,45 +1,14 @@
 const ProjectData = [
     {
-        title: "XD design to HTML and CSS",
-        category: "UI/UX Design",
-        image: "img/xd_to_html.png",
-        link: "https://lkdgr8.github.io/XD-design-to-HTML/"
-    },
-    {
-        title: "Assignment to make companie's website's sample UI",
-        category: "UI/UX Design",
-        image: "img/making_ui_for_company_website.png",
-        link: "https://lkdgr8.github.io/assignment2"
-    },
-    {
-        title: "Gradient Background Generator project",
-        category: "UI/UX Design",
-        image: "img/gradient_background.png",
-        link: "https://lkdgr8.github.io/gradient_backgroun_generator/"
-
-    },
-    {
-        title: "Erols Taloring website",
-        category: "UI/UX Design",
-        image: "img/erolstailoring.png",
-        link: "https://erolstailoring.com/"
-    },
-    {
-        title: "KS Softech Website",    
-        category: "UI/UX Design",
-        image: "img/kssoftech.png",
-        link: "https://www.kssoftech.com/"
-    },
-    {
-        title: "AIKTC Web pages",    
-        category: "UI/UX Design",
-        image: "img/Aiktc_landing_page.png",
-        link: "https://aiktc.ac.in/admission/bachelor-of-electrical-engineering-degree-course/"
-    },
-    {
         title: "Seaock Lounge",
         category: "Wordpress",
         image: "img/searock.png",
+        link: "https://searocklounge.com/"
+    },  
+    {
+        title: "LK Tailor Website",
+        category: "Wordpress",
+        image: "img/lk-tailor.png",
         link: "https://searocklounge.com/"
     },  
     {
@@ -47,7 +16,6 @@ const ProjectData = [
         category: "Wordpress",
         image: "img/ai.png",
         link: "https://www.aishippinglines.com/"
-        
     },
     {
         title: "Flatbed Hauling Qoutes website",
@@ -66,6 +34,30 @@ const ProjectData = [
         category: "Wordpress",
         image: "img/hht.png",
         link: "https://heavyhaultransporting.com/"
+    },
+    {
+        title: "5W&N Website",
+        category: "UI/UX Design",
+        image: "img/5wn-website.jpg",
+        link: "https://5wn.marketing"
+    },
+    {
+        title: "Erols Taloring website",
+        category: "UI/UX Design",
+        image: "img/erolstailoring.png",
+        link: "https://erolstailoring.com/"
+    },
+    {
+        title: "KS Softech Website",    
+        category: "UI/UX Design",
+        image: "img/kssoftech.png",
+        link: "https://www.kssoftech.com/"
+    },
+    {
+        title: "AIKTC Web pages",    
+        category: "UI/UX Design",
+        image: "img/Aiktc_landing_page.png",
+        link: "https://aiktc.ac.in/admission/bachelor-of-electrical-engineering-degree-course/"
     },
     {
         title: "Todo List Project with edit and delete functionality",
