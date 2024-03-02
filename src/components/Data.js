@@ -1,10 +1,28 @@
 const ProjectData = [
     {
+        title: "Eterne Clinic Website",
+        category: "UI/UX Design",
+        image: "img/searock.png",
+        link: "https://eterneclinic.com/"
+    },
+    {
+        title: "5W&N Website",
+        category: "UI/UX Design",
+        image: "img/5wn-website.jpg",
+        link: "https://5wn.marketing"
+    },
+    {
+        title: "AIKTC Web pages",    
+        category: "UI/UX Design",
+        image: "img/Aiktc_landing_page.png",
+        link: "https://aiktc.ac.in/admission/bachelor-of-electrical-engineering-degree-course/"
+    },
+    {
         title: "Seaock Lounge",
         category: "Wordpress",
         image: "img/searock.png",
         link: "https://searocklounge.com/"
-    },  
+    },    
     {
         title: "LK Tailor Website",
         category: "Wordpress",
@@ -36,12 +54,6 @@ const ProjectData = [
         link: "https://heavyhaultransporting.com/"
     },
     {
-        title: "5W&N Website",
-        category: "UI/UX Design",
-        image: "img/5wn-website.jpg",
-        link: "https://5wn.marketing"
-    },
-    {
         title: "Erols Taloring website",
         category: "UI/UX Design",
         image: "img/erolstailoring.png",
@@ -52,12 +64,6 @@ const ProjectData = [
         category: "UI/UX Design",
         image: "img/kssoftech.png",
         link: "https://www.kssoftech.com/"
-    },
-    {
-        title: "AIKTC Web pages",    
-        category: "UI/UX Design",
-        image: "img/Aiktc_landing_page.png",
-        link: "https://aiktc.ac.in/admission/bachelor-of-electrical-engineering-degree-course/"
     },
     {
         title: "Todo List Project with edit and delete functionality",
