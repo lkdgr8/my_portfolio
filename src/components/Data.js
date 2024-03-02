@@ -2,7 +2,7 @@ const ProjectData = [
     {
         title: "Eterne Clinic Website",
         category: "UI/UX Design",
-        image: "img/searock.png",
+        image: "img/eterne-website-main.png",
         link: "https://eterneclinic.com/"
     },
     {
