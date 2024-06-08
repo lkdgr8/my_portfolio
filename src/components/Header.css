@@ -222,11 +222,12 @@ button{
 }
 
 .design_icons{
-    font-size: 5rem;    
+    font-size: 3rem;    
 }
 
 .skills_icons_sec{
     margin: 0 18px;
+    text-align: center;
 }
 
 .skills_sect{
@@ -254,7 +255,7 @@ button{
 }
 
 .uni{
-    font-size: 10rem;
+    font-size: 5rem;
 }
 
 .course{
@@ -296,6 +297,17 @@ button{
 form{
     margin-top: 30px;
     padding-left: 35%;
+}
+
+.course h1{
+    font-size: 21px;
+}
+
+.hide{
+    visibility: hidden;
+}
+.course h2{
+    font-size: 17px;
 }
 
 form p{
@@ -370,7 +382,8 @@ select{
     margin: 34px 0;
     padding: 10px 25px;
     border-radius: 25px;
-    background-color: orange;
+    background-color: blue;
+    color: #fff;
 }
 
 textarea{
@@ -569,7 +582,11 @@ textarea{
         bottom: -50%;
     }
     .skills_icons{
-        margin-left: 20rem;
+        margin-left: 6rem;
+    }
+
+    .adj .skills_icons{
+      margin-left: 10rem !important;
     }
 }
 

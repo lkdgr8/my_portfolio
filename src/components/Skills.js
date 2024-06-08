@@ -1,10 +1,14 @@
 import React from 'react'
 import { SiBootstrap, SiHtml5, SiCss3, SiShopify } from 'react-icons/si'
-import { BsWordpress } from 'react-icons/bs'
-import { RiReactjsLine } from 'react-icons/ri'
-import { FaUniversity } from 'react-icons/fa'
-import { GrCertificate } from 'react-icons/gr'
-import { MdWork } from 'react-icons/md'
+import { BsWordpress } from 'react-icons/bs';
+import { RiReactjsLine } from 'react-icons/ri';
+import { FaUniversity } from 'react-icons/fa';
+import { GrCertificate } from 'react-icons/gr';
+import { MdWork } from 'react-icons/md';
+import { FaPhp } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 import { TbBrandJavascript, TbBrandNextjs, TbFileCertificate } from 'react-icons/tb'
 import './Header.css'
 
@@ -46,6 +50,10 @@ function Skills() {
             <h1>Web Development</h1>
             <div className='skills_icons'>
               <div className='skills_icons_sec'>
+                <TbBrandJavascript className='design_icons icon_font' />
+                <h2 className='heading'>Javascript</h2>
+              </div>
+              <div className='skills_icons_sec'>
                 <RiReactjsLine className='design_icons' />
                 <h2 className='heading'>React JS</h2>
               </div>
@@ -54,8 +62,20 @@ function Skills() {
                 <h2 className='heading'>Next JS</h2>
               </div>
               <div className='skills_icons_sec'>
-                <TbBrandJavascript className='design_icons icon_font' />
-                <h2 className='heading'>Javascript</h2>
+                <FaPhp className='design_icons' />
+                <h2 className='heading'>PHP</h2>
+              </div>
+              <div className='skills_icons_sec'>
+                <FaNodeJs className='design_icons' />
+                <h2 className='heading'>Node Js</h2>
+              </div>
+              <div className='skills_icons_sec'>
+                <SiMongodb className='design_icons' />
+                <h2 className='heading'>MongoDB</h2>
+              </div>
+              <div className='skills_icons_sec'>
+                <SiMysql className='design_icons' />
+                <h2 className='heading'>Mysql</h2>
               </div>
             </div>
           </div>
@@ -88,11 +108,17 @@ function Skills() {
             <div className='work'>
               <h1 className='myskills'>Work Expereince</h1>
               <div className='edu'>
-                <MdWork className='uni' />
                 <div className='course job'>
                   <h1>Front End Web Developer</h1>
-                  <h2>KS Softech Pvt Ltd</h2>
-                  <h2>2022-Present</h2>
+                  <h2>KS Softech Pvt. Ltd.</h2>
+                  <h2>Apr 2022 - May 2023</h2>
+                </div>
+              </div>
+              <div className='edu'>
+                <div className='course job'>
+                  <h1>Web Developer</h1>
+                  <h2>Seraphyq Futureverse Pvt. Ltd.</h2>
+                  <h2>July 2022 - Mar 2023</h2>
                 </div>
               </div>
             </div>
