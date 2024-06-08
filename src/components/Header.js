@@ -30,11 +30,11 @@ function Header() {
                                     <a href='#skills'><li>My Career</li></a>
                                     <a href="#contact"><li>Contact Me</li></a>
                                 </nav>  
-                            </sapn>
-                            <div className='resume_container'>
-                                <button className='resume_btn'><a target="_blank" href={resume}>Resume</a></button>
-                            </div>                          
+                            </sapn>                         
                         </div>
+                        <div className='resume_container'>
+                            <button className='resume_btn'><a target="_blank" href={resume}>Resume</a></button>
+                        </div> 
                     </header>
                 </div>
                 <section className='intro'>

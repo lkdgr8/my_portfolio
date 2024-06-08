@@ -11,12 +11,16 @@
 }
 .display-flex{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     margin: 0px 40px;
+    padding: 13px 0;
+}
+
+.display-flex1 {
+    padding-top: 6px;
 }
 
 .title{
-    margin-top: 23px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -24,13 +28,6 @@
     font-family: 'Roboto Slab', serif;
     margin: 20px 0;
     font-size: 20px;
-}
-.display-flex1{
-    display: flex;
-    flex-direction: row;
-    margin: 25px 0px 25px 18rem;
-    position: relative;
-    text-align: center;
 }
 
 .display-flex1 nav a:hover{
@@ -566,21 +563,11 @@ textarea{
     .lastpara{
         font-size: 20px;
     }
-    .resume_container{
-        display: block;
-        margin-top: 30px;
-    }
 }
 
 /* responsive section */
 
 @media (min-width: 1198px){
-    .resume_container{
-        margin-top: 20px;
-        position: absolute;
-        right: -112%;
-        bottom: -50%;
-    }
     .skills_icons{
         margin-left: 6rem;
     }
