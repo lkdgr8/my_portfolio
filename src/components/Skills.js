@@ -118,7 +118,7 @@ function Skills() {
                 <div className='course job'>
                   <h1>Web Developer</h1>
                   <h2>Seraphyq Futureverse Pvt. Ltd.</h2>
-                  <h2>July 2022 - Mar 2023</h2>
+                  <h2>June 2023 - Mar 2024</h2>
                 </div>
               </div>
             </div>
