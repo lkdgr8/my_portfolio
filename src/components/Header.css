@@ -407,6 +407,10 @@ textarea{
 
 /* mobile responsive section */
 
+.mob-block{
+    display: none;
+}
+
 @media (max-width: 460px){
     .hamb_icon{
         display: inline-block;
@@ -520,6 +524,12 @@ textarea{
     .btns{
       margin: 0px 8px;
     }
+    .mob-none{
+        display: none;
+    }
+    .mob-block{
+        display: block;
+    }
     .activebtn{
         margin: 0px 8px;
     }
@@ -550,12 +560,16 @@ textarea{
         z-index: 1000;
         background-color: #282882bf;
         padding-right: 50%;
+        padding-left: 39px;
     }
     .display-flex1 li{
         list-style: none;
         margin-top: 30px;
         padding: 0 0;
-        color: rgb(236, 192, 192);
+        color: #fff;
+    }
+    .resume_container{
+        margin-top: 30px;
     }
     .lastpara{
         padding: 0 5px !important;

@@ -19,7 +19,7 @@ function Showprojects({ datalist }) {
                             <div className='texts'>
                                 <p>{title}</p>
                             </div>
-                            <a href={link} target="_blank"><button className='learn_more_btn'>See Live</button></a>
+                            <a href={link} target="_blank" rel="noreferrer"><button className='learn_more_btn'>See Live</button></a>
                         </div>  
                     </div>
                     </>

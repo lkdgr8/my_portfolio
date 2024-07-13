@@ -17,7 +17,7 @@ function Header() {
         <>
             <div className='home'>
                 <div className='fixedposition'>
-                    <header className='display-flex'>
+                    <header className='display-flex mob-none'>
                         <div className='title'>
                             <a href='#'><h2>Latesh Kakrai</h2></a>
                             <GiHamburgerMenu className="hamb_icon" onClick={() => setClicked(!clicked)}/>
@@ -35,6 +35,25 @@ function Header() {
                         <div className='resume_container'>
                             <button className='resume_btn'><a target="_blank" href={resume}>Resume</a></button>
                         </div> 
+                    </header>
+                    <header className='display-flex mob-block'>
+                        <div className='title'>
+                            <a href='#'><h2>Latesh Kakrai</h2></a>
+                            <GiHamburgerMenu className="hamb_icon" onClick={() => setClicked(!clicked)}/>
+                        </div>
+                        <div className= {clicked ? `update_div display-flex1` : "display-flex1"}>
+                            <sapn>
+                                <nav>   
+                                    <a href='#'><li>Home</li></a>
+                                    <a href='#projects'><li>Projects</li></a>
+                                    <a href='#skills'><li>My Career</li></a>
+                                    <a href="#contact"><li>Contact Me</li></a>
+                                </nav>  
+                            </sapn>          
+                            <div className='resume_container'>
+                                <button className='resume_btn'><a target="_blank" href={resume}>Resume</a></button>
+                            </div>               
+                        </div>
                     </header>
                 </div>
                 <section className='intro'>
