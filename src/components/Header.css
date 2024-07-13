@@ -415,9 +415,16 @@ textarea{
     .hamb_icon{
         display: inline-block;
         position: relative;
-        left: 270px;
         font-size: 25px;
-        bottom: 25px;
+        bottom: -5px;
+    }
+    .close_menu{
+        font-size: 29px;
+        color: #fff;
+        position: absolute;
+        top: 19px;
+        /* right: 0; */
+        left: 100px;
     }
     .contact_cont{
         position: relative;
@@ -537,15 +544,22 @@ textarea{
         display: block !important;
         width: 100%;
         position: fixed;
-        top: 55px;
+        top: 0;
+        margin: 0 !important;
+        padding-top: 20%;
         right: -100%;
         margin: 25px 0;
+        height: 100vh;
+        transition: all 0.8s;
     }
     .display-flex1 nav{
         display: block !important;
     }
     .title {
         padding-bottom: 0px !important;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
     }
     .icons a {
         margin: 50px 10px;
@@ -553,14 +567,16 @@ textarea{
     .update_div{
         display: block !important;
         position: absolute;
-        top: 55px;
-        left: 56%;
-        transition: all 0.5s;
+        top: 0;
+        margin: 0;
+        right: -57%;
+        transition: all 0.8s;
         height: 100vh;
         z-index: 1000;
         background-color: #282882bf;
         padding-right: 50%;
-        padding-left: 39px;
+        padding-left: 18px;
+        padding-top: 20%;
     }
     .display-flex1 li{
         list-style: none;

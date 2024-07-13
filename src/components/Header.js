@@ -10,6 +10,7 @@ import Navbar from './Navbar'
 import Skills from './Skills'
 import Contact from './Contact'
 import resume from './resume/myupdatedresume.pdf'
+import { IoCloseSharp } from "react-icons/io5";
 
 function Header() {
     const [clicked, setClicked] = useState(false);
@@ -39,11 +40,13 @@ function Header() {
                     <header className='display-flex mob-block'>
                         <div className='title'>
                             <a href='#'><h2>Latesh Kakrai</h2></a>
-                            <GiHamburgerMenu className="hamb_icon" onClick={() => setClicked(!clicked)}/>
+                            <GiHamburgerMenu className={clicked ? `mob-none display_cross` : "hamb_icon"} onClick={() => setClicked(!clicked)}/>
+                            
                         </div>
                         <div className= {clicked ? `update_div display-flex1` : "display-flex1"}>
                             <sapn>
-                                <nav>   
+                            <IoCloseSharp className={clicked ? "mob-block close_menu" : "mob-none"} onClick={() => setClicked(!clicked)} />
+                                <nav onClick={() => setClicked(!clicked)}>   
                                     <a href='#'><li>Home</li></a>
                                     <a href='#projects'><li>Projects</li></a>
                                     <a href='#skills'><li>My Career</li></a>
