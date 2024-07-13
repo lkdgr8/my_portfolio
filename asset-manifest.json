@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.52c2b6c3.css",
-    "main.js": "/my_portfolio/static/js/main.2e537b71.js",
+    "main.css": "/my_portfolio/static/css/main.167a31ec.css",
+    "main.js": "/my_portfolio/static/js/main.84899b7d.js",
     "static/js/787.e16ef6ea.chunk.js": "/my_portfolio/static/js/787.e16ef6ea.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/my_portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/my_portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,12 +10,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/my_portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/myupdatedresume.pdf": "/my_portfolio/static/media/myupdatedresume.6a17a31bf97a22d61306.pdf",
     "index.html": "/my_portfolio/index.html",
-    "main.52c2b6c3.css.map": "/my_portfolio/static/css/main.52c2b6c3.css.map",
-    "main.2e537b71.js.map": "/my_portfolio/static/js/main.2e537b71.js.map",
+    "main.167a31ec.css.map": "/my_portfolio/static/css/main.167a31ec.css.map",
+    "main.84899b7d.js.map": "/my_portfolio/static/js/main.84899b7d.js.map",
     "787.e16ef6ea.chunk.js.map": "/my_portfolio/static/js/787.e16ef6ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52c2b6c3.css",
-    "static/js/main.2e537b71.js"
+    "static/css/main.167a31ec.css",
+    "static/js/main.84899b7d.js"
   ]
 }
