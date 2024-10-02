@@ -2,7 +2,7 @@ const ProjectData = [
     {
         title: "Pragati glass Website",
         category: "Wordpress",
-        image: "img/eterne-website-main.png",
+        image: "img/pragati.png",
         link: "https://designcentric.co.in/pragati/"
     },
     {
