@@ -6,6 +6,7 @@ import { AiFillGithub } from 'react-icons/ai'
 import { AiFillFacebook } from 'react-icons/ai'
 import { CgMail } from 'react-icons/cg'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { IoMdClose } from "react-icons/io";
 import Navbar from './Navbar'
 import Skills from './Skills'
 import Contact from './Contact'
@@ -17,7 +18,7 @@ function Header() {
         <>
             <div className='home'>
                 <div className='fixedposition'>
-                    <header className='display-flex'>
+                    <header className='display-flex d-none-mob'>
                         <div className='title'>
                             <a href='#'><h2>Latesh Kakrai</h2></a>
                             <GiHamburgerMenu className="hamb_icon" onClick={() => setClicked(!clicked)}/>
@@ -32,9 +33,29 @@ function Header() {
                                 </nav>  
                             </sapn>                         
                         </div>
-                        <div className='resume_container'>
+                        <div className= "resume_container">
                             <button className='resume_btn'><a target="_blank" href={resume}>Resume</a></button>
                         </div> 
+                    </header>
+                    <header className='display-flex d-mob'>
+                        <div className='title'>
+                            <a href='#'><h2>Latesh Kakrai</h2></a>
+                            <GiHamburgerMenu className={clicked ? `hide` : "hamb_icon"} onClick={() => setClicked(!clicked)}/>
+                        </div>
+                        <div className= {clicked ? `update_div display-flex1` : "display-flex1"}>
+                            <IoMdClose className='close' onClick={() => setClicked(!clicked)} />
+                            <sapn>
+                                <nav>   
+                                    <a href='#'><li onClick={() => setClicked(!clicked)}>Home</li></a>
+                                    <a href='#projects'><li onClick={() => setClicked(!clicked)}>Projects</li></a>
+                                    <a href='#skills'><li onClick={() => setClicked(!clicked)}>My Career</li></a>
+                                    <a href="#contact"><li onClick={() => setClicked(!clicked)}>Contact Me</li></a>
+                                </nav>  
+                            </sapn>        
+                            <div className= "resume_container">
+                                <button className='resume_btn'><a target="_blank" href={resume}>Resume</a></button>
+                            </div>
+                        </div>         
                     </header>
                 </div>
                 <section className='intro'>

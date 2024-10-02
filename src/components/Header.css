@@ -24,6 +24,10 @@
     font-family: 'Roboto Slab', serif;
 }
 
+.d-mob{
+    display: none;
+}
+
 .subtitle{
     font-family: 'Roboto Slab', serif;
     margin: 20px 0;
@@ -415,6 +419,16 @@ textarea{
         font-size: 25px;
         bottom: 25px;
     }
+    .hide{
+        visibility: hidden;
+    }
+    .close{
+        font-size: 30px;
+        position: relative;
+        left: 80px;
+        color: #fff;
+        bottom: -10px;
+    }
     .contact_cont{
         position: relative;
         top: 0px;
@@ -474,9 +488,15 @@ textarea{
     }
     .skills_icons_sec{
         margin: 10px;
+        width: 111px;
     }
     .design_icons{
-        font-size: 4rem;    
+        font-size: 3rem;    
+    }
+    .myskills {
+        color: blue;
+        text-decoration: underline;
+        font-size: 23px;
     }
     .edu{
         margin-top: 20px;
@@ -494,25 +514,22 @@ textarea{
         margin-top: 1rem;
     }
     .uni{
-        font-size: 7rem;
+        font-size: 4rem;
     }
     .course h1{
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
     .course h2{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+    }
+    .resume_container {
+        margin-top: 25px;
     }
     .work{
         margin-top: 25px;
     }
     .job{
         padding-top: 0;
-    }
-    .icon2{
-        margin-left: 30px;
-    }
-    .heading2{
-        margin-left: 25px !important;
     }
     .project_tabs{
         margin: 20px 0 0 0;
@@ -525,11 +542,18 @@ textarea{
     }
     .display-flex1{
         display: block !important;
-        width: 100%;
-        position: fixed;
-        top: 55px;
+        position: absolute;
         right: -100%;
-        margin: 25px 0;
+        top: 0;
+        transition: all 0.5s;
+        height: 100vh;
+        z-index: 1000;
+        background-color: #212199a3;
+        padding-right: 50%;
+        padding-left: 26px;
+    }
+    .display-flex {
+        margin: 0px 32px;
     }
     .display-flex1 nav{
         display: block !important;
@@ -543,19 +567,30 @@ textarea{
     .update_div{
         display: block !important;
         position: absolute;
-        top: 55px;
-        left: 56%;
+        right: -45%;
         transition: all 0.5s;
         height: 100vh;
         z-index: 1000;
-        background-color: #282882bf;
+        background-color: #212199d6;
         padding-right: 50%;
+        padding-left: 26px;
+    }
+    .d-mob {
+        display: block;
+        padding: 12px 0 10px;
+    }
+    .title{
+        height: 40px;
+        width: fit-content;
+    }
+    .d-none-mob{
+        display: none;
     }
     .display-flex1 li{
         list-style: none;
         margin-top: 30px;
         padding: 0 0;
-        color: rgb(236, 192, 192);
+        color: #fff;
     }
     .lastpara{
         padding: 0 5px !important;
