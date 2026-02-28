@@ -170,7 +170,7 @@ a {
     border-radius: 8px;
     overflow: hidden;
     background: #ffffff;
-    border: 1px solid rgba(30,58,138,0.08);
+    /* border: 1px solid rgba(30,58,138,0.08); */
     transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
