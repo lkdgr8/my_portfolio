@@ -43,7 +43,7 @@ function Skills() {
                   <SiShopify className='design_icons' />
                   <h2 className='heading'>Shopify</h2>
                 </div>
-            </div>
+              </div>
             </div>
           </div>
           <div className='web_design web_dev'>
@@ -106,14 +106,27 @@ function Skills() {
               </div>
             </div>
             <div className='work'>
-              <h1 className='myskills'>Work Expereince</h1>
+              <h1 className='myskills'>Work Experience</h1>
+
+              {/* Konnect Insights */}
               <div className='edu'>
                 <div className='course job'>
-                  <h1>Front End Web Developer</h1>
-                  <h2>KS Softech Pvt. Ltd.</h2>
-                  <h2>Apr 2022 - May 2023</h2>
+                  <h1>Web Developer</h1>
+                  <h2>Konnect Insights</h2>
+                  <h2>Mar 2025 - Feb 2026</h2>
                 </div>
               </div>
+
+              {/* Designcentric */}
+              <div className='edu'>
+                <div className='course job'>
+                  <h1>Web Developer</h1>
+                  <h2>Designcentric</h2>
+                  <h2>Apr 2025 - Mar 2026</h2>
+                </div>
+              </div>
+
+              {/* Seraphyq Futureverse */}
               <div className='edu'>
                 <div className='course job'>
                   <h1>Web Developer</h1>
@@ -121,6 +134,16 @@ function Skills() {
                   <h2>June 2023 - Mar 2024</h2>
                 </div>
               </div>
+
+              {/* KS Softech */}
+              <div className='edu'>
+                <div className='course job'>
+                  <h1>Front End Web Developer</h1>
+                  <h2>KS Softech Pvt. Ltd.</h2>
+                  <h2>Apr 2022 - May 2023</h2>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
